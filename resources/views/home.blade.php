@@ -20,7 +20,7 @@
 
             <div class="col-1-of-2">
                 <div class="right-box">
-                    <div class="navigation">
+                    <div class="navigation-bar">
                         <p>digital_agency</p>
                     </div>
                     <div class="bg-video-2">
