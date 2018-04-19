@@ -84,6 +84,51 @@
             </div>
         </div>
     </section><!-- /.section-features -->
+
+    <section class="section-conceptual">
+        <div class="h-row">
+
+            <div class="h-col-1-of-2">
+                <div class="sc-left-box">
+                    <div class="bg-video">
+                        <video class="bg-video__content" autoplay muted loop>
+                            <source src="{{ asset('videos/Mock-up.mp4') }}" type="video/mp4">
+                            <source src="{{ asset('videos/Mock-up.webm') }}" type="video/mp4">
+                            Your browser is not supported!
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-col-1-of-2">
+                <div class="sc-right-box">
+                    <div class="conceptual-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet consectetur dolorem eligendi eum libero magni odio quidem sint sunt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 @endsection
 
 @section('app-scripts')
