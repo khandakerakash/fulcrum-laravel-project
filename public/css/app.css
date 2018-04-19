@@ -241,6 +241,13 @@ body {
   transition: transform .3s, -webkit-transform .3s;
 }
 
+.sc-left-box:hover,
+.sc-left-box:active {
+  cursor: pointer;
+  background-position: 100%;
+  background-color: rgba(202, 17, 0, 0.5);
+}
+
 .sc-right-box {
   height: 95vh;
   width: 100%;
@@ -256,8 +263,15 @@ body {
   transition: transform .3s, -webkit-transform .3s;
 }
 
+.sc-right-box:hover,
+.sc-right-box:active {
+  cursor: pointer;
+  background-position: 100%;
+  background-color: rgba(85, 197, 122, 0.8);
+  color: #fff !important;
+}
+
 .conceptual-text p {
-  color: #000;
   margin-bottom: 2rem;
   text-align: justify;
   -webkit-animation: movieInbottom .5s ease-out .75s;
@@ -383,6 +397,17 @@ body {
   width: 100%;
   position: relative;
   background-color: rgba(231, 230, 230, 0.5);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.left-box:hover,
+.left-box:active {
+  cursor: pointer;
+  background-position: 100%;
+  background-color: rgba(85, 197, 122, 0.5);
 }
 
 .bg-video {
@@ -408,6 +433,17 @@ body {
   width: 100%;
   position: relative;
   background-color: rgba(202, 17, 0, 0.5);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.right-box:hover,
+.right-box:active {
+  cursor: pointer;
+  background-position: 100%;
+  background-color: rgba(85, 197, 122, 0.5);
 }
 
 .bg-video-2 {

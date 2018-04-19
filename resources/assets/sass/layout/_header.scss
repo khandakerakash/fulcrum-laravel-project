@@ -7,6 +7,14 @@
   width: 100%;
   position: relative;
   background-color: rgba($default-bg-color, .5);
+  transition: transform .3s;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-position: 100%;
+    background-color: rgba($color-primary, .5);
+  }
 }
 
 .bg-video {
@@ -32,6 +40,14 @@
   width: 100%;
   position: relative;
   background-color: rgba($red-color-dark, .5);
+  transition: transform .3s;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-position: 100%;
+    background-color: rgba($color-primary, .5);
+  }
 }
 
 .bg-video-2 {
