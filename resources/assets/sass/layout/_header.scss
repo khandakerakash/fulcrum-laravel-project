@@ -1,0 +1,65 @@
+.header {
+  box-shadow: 0 3rem 6rem rgba($color-black, .1);
+}
+
+.left-box {
+  height: 95vh;
+  width: 100%;
+  position: relative;
+  background-color: rgba($default-bg-color, .5);
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 95vh;
+  width: 100%;
+  z-index: -1;
+  opacity: .5;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+  }
+}
+
+.right-box {
+  height: 95vh;
+  width: 100%;
+  position: relative;
+  background-color: rgba($red-color-dark, .5);
+}
+
+.bg-video-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 95vh;
+  width: 100%;
+  z-index: -1;
+  opacity: .5;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+  }
+}
+
+.navigation {
+  background-color: $color-white;
+  padding: 5rem;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+  p {
+    text-align: center;
+    color: $color-black;
+    font-size: 1.8rem;
+  }
+}
