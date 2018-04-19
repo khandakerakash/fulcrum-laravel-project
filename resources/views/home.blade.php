@@ -128,6 +128,50 @@
             </div>
 
         </div>
+    </section><!-- /.section-conceptual-->
+
+    <section class="section-feature-bottom">
+        <div class="row u-text-color-white">
+            <div class="col-1-of-4">
+                <div class="feature-box feature-box-1 u-center-text">
+                    <i class="feature-box__icon u-margin-bottom-x-small icon-basic-world"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Quantify</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, tempore.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box feature-box-2 u-center-text">
+                    <i class="feature-box__icon u-margin-bottom-x-small icon-basic-compass"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Basic</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, tempore.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box feature-box-3 u-center-text">
+                    <i class="feature-box__icon u-margin-bottom-x-small icon-basic-map"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Glyphs</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, tempore.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box feature-box-4 u-center-text">
+                    <i class="feature-box__icon u-margin-bottom-x-small icon-basic-heart"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Sequence</h3>
+                    <p class="feature-box__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, tempore.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 @endsection
 

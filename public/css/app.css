@@ -226,6 +226,10 @@ body {
   margin-top: 8rem !important;
 }
 
+.u-text-color-white {
+  color: #fff;
+}
+
 .sc-left-box {
   height: 95vh;
   width: 100%;
@@ -305,6 +309,22 @@ body {
 .feature-box:hover {
   -webkit-transform: translateY(-1.5rem) scale(1.03);
           transform: translateY(-1.5rem) scale(1.03);
+}
+
+.feature-box-1 {
+  background-color: #4A3655;
+}
+
+.feature-box-2 {
+  background-color: #F34E4E;
+}
+
+.feature-box-3 {
+  background-color: #EA8300;
+}
+
+.feature-box-4 {
+  background-color: #0285CC;
 }
 
 .h-row {
@@ -688,6 +708,10 @@ body {
 }
 
 .section-conceptual {
+  margin-bottom: 10rem;
+}
+
+.section-feature-bottom {
   margin-bottom: 10rem;
 }
 
