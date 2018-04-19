@@ -10,7 +10,7 @@
         <ul class="navigation__list u-center-text">
             <li class="lavigation__item"><a href="#" class="navigation__link"><span>01</span> Agence</a></li>
             <li class="lavigation__item"><a href="#" class="navigation__link"><span>02</span> Projects</a></li>
-            <li class="lavigation__item"><a href="#" class="navigation__link"><span>04</span> Contact</a></li>
+            <li class="lavigation__item"><a href="#" class="navigation__link"><span>03</span> Contact</a></li>
         </ul>
     </nav>
 </div>

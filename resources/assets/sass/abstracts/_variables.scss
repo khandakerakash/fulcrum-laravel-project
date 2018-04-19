@@ -61,7 +61,12 @@ $border-radius-big: 10rem;
 
 
 // GIRD
-$grid-width: 100%;
+$h-grid-width: 100%;
+$h-gutter-vertical: 4rem;
+$h-gutter-vertical-small: 2rem;
+$h-gutter-horizontal: .1rem;
+
+$grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-vertical-small: 6rem;
-$gutter-horizontal: .1rem;
+$gutter-horizontal: 6rem;

@@ -54,12 +54,31 @@
 
 .navigation-bar {
   background-color: $color-white;
-  padding: 5rem;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  z-index: 99999;
+  width: 100%;
+  min-height: 8.7rem;
+}
+
+.logo {
+  background-color: rgba($color-black, .8);
+  padding: 1rem;
+  width: 18rem;
+  float: left;
+  display: block;
+}
+
+.navigation-bar-text {
+  float: left;
+  display: block;
 
   p {
-    text-align: center;
     color: $color-black;
-    font-size: 1.8rem;
+    margin: 3rem;
+    font-size: $default-font-size;
+
+    span {
+      color: $red-color-dark !important;
+    }
   }
 }
