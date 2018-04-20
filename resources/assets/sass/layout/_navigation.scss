@@ -2,6 +2,10 @@
 
   &--logo {
     padding: 1rem 3rem 0;
+
+    @include respond(tab-land) {
+      padding: 0 3rem 0 !important;
+    }
   }
 
   &--search-box {
@@ -11,6 +15,10 @@
 
   &--menu {
     padding-top: 2.5rem;
+
+    @include respond(tab-land) {
+      padding-top: .5rem !important;
+    }
   }
 }
 
@@ -18,6 +26,11 @@
   width: 68% !important;
   border-left: 1px solid #d4d4d4 !important;
   border-right: 1px solid #d4d4d4 !important;
+
+
+  @include respond(big-desktop) {
+    width: 49.5% !important;
+  }
 
   @include respond(tab-land) {
     width: 49.5% !important;
@@ -28,8 +41,7 @@
   }
 
   @include respond(phone) {
-    padding-top: 2rem;
-    width: 100% !important;
+    display: none;
   }
 
   &__group {
@@ -79,6 +91,12 @@
 
 .navbar {
   margin: 0 !important;
+}
+
+.navbar-brand {
+  @include respond(phone) {
+    margin-bottom: 2rem !important;
+  }
 }
 
 
