@@ -1,100 +1,16 @@
 .header {
   box-shadow: 0 3rem 6rem rgba($color-black, .1);
-}
 
-.left-box {
-  height: 95vh;
-  width: 100%;
-  position: relative;
-  background-color: rgba($default-bg-color, .5);
-  transition: transform .3s;
-
-  &:hover,
-  &:active {
-    cursor: pointer;
-    background-position: 100%;
-    background-color: rgba($color-primary, .5);
+  &__top {
+    padding: .5rem;
+    background: linear-gradient(
+                    to right bottom,
+                    rgba($header-top-color-light, 0.8),
+                    rgba($header-top-color-dark, 0.8));
   }
-}
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 95vh;
-  width: 100%;
-  z-index: -1;
-  opacity: .5;
-  overflow: hidden;
-
-  &__content {
-    height: 100%;
-    width: 100%;
-
-    object-fit: cover;
-  }
-}
-
-.right-box {
-  height: 95vh;
-  width: 100%;
-  position: relative;
-  background-color: rgba($red-color-dark, .5);
-  transition: transform .3s;
-
-  &:hover,
-  &:active {
-    cursor: pointer;
-    background-position: 100%;
-    background-color: rgba($color-primary, .5);
-  }
-}
-
-.bg-video-2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 95vh;
-  width: 100%;
-  z-index: -1;
-  opacity: .5;
-  overflow: hidden;
-
-  &__content {
-    height: 100%;
-    width: 100%;
-
-    object-fit: cover;
-  }
-}
-
-.navigation-bar {
-  background-color: $color-white;
-  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
-  z-index: 99999;
-  width: 100%;
-  min-height: 8.7rem;
-}
-
-.logo {
-  background-color: rgba($color-black, .10);
-  padding: 1rem;
-  width: 18rem;
-  float: left;
-  display: block;
-}
-
-.navigation-bar-text {
-  float: left;
-  display: block;
-
-  p {
-    color: $color-black;
-    margin: 3rem;
-    font-size: $default-font-size;
-
-    span {
-      color: $red-color-dark !important;
-    }
+  &__mid {
+    padding: 2rem;
+    background: linear-gradient(-135deg,$header-mid-purple-color 0,$header-mid-blue-color 100%);
   }
 }

@@ -9,8 +9,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Home | @yield('title')</title>
 
-    <!-- Google Lato Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <!-- Google Raleway Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
     <!-- ICON-FONT -->
     <link rel="stylesheet" href="{{ asset('css/icon-font.css') }}">
     <!-- Styles -->
@@ -20,6 +20,7 @@
 <body>
 
 <div id="app">
+    @include('partials/header')
     @include('partials/nav')
     @yield('content')
 </div>
