@@ -8758,6 +8758,12 @@ body {
   transition: transform .3s, -webkit-transform .3s;
 }
 
+@media (max-width: 56.25em) {
+  .feature-box {
+    margin-bottom: 10rem !important;
+  }
+}
+
 .feature-box__icon {
   font-size: 6rem;
   display: inline-block;
