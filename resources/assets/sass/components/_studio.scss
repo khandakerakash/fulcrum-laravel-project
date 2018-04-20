@@ -1,4 +1,4 @@
-//STUDIO TOP PART
+//BEFORE PLUS BUTTON HOVER/CLICK STYLE --TOP
 .studio__left-top {
   position: relative;
   transition: transform .3s;
@@ -22,6 +22,15 @@
     position: absolute;
     right: 1.5%;
     bottom: 0;
+
+    transition: transform .3s;
+
+    &:hover,
+    &:active {
+      cursor: pointer;
+      background-position: 100%;
+      background-color: rgba($plus-button-bg-hover, .5);
+    }
 
     @include respond(big-desktop) {
       right: 1.4%;
@@ -58,6 +67,7 @@
   }
 }
 
+
 .studio__right-top {
   max-height: 72rem;
   padding: 4rem 0;
@@ -69,7 +79,37 @@
   }
 }
 
-//STUDIO MIDDLE PART
+//AFTER PLUS BUTTON HOVER/CLICK STYLE --TOP
+.studio__left-top--after-hover {
+  background-color: $plus-button-bg-hover;
+  max-height: 72rem;
+  padding: 2rem;
+
+  color: $color-white;
+
+  animation: movieInbottom .5s ease-out .75s;
+  animation-fill-mode: backwards;
+}
+
+.studio__right-top--after-hover {
+  background-color: $color-black!important;
+  max-height: 72rem;
+  width: 100%;
+  position: relative;
+
+  h1 {
+    padding: 5rem;
+    @include center-vertical-and-horizontal;
+    font-size: $font-size-big;
+    font-weight: 600;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+    color: $color-gray-dark;
+  }
+}
+
+
+//BEFORE PLUS BUTTON HOVER/CLICK STYLE --MIDDLE
 .studio__left-middle {
   max-height: 72rem;
   padding: 4rem 0;
@@ -78,6 +118,9 @@
     color: $color-gray-dark-dip;
     line-height: 1.5;
     letter-spacing: .5px;
+
+    animation: movieInbottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
   }
 }
 
@@ -104,6 +147,15 @@
     left: 2.5%;
     bottom: 0;
 
+    transition: transform .3s;
+
+    &:hover,
+    &:active {
+      cursor: pointer;
+      background-position: 100%;
+      background-color: rgba($plus-button-bg-hover, .5);
+    }
+
     i {
       color: $color-white;
       @include center-vertical-and-horizontal;
@@ -111,6 +163,37 @@
   }
 }
 
+//AFTER PLUS BUTTON HOVER/CLICK STYLE --MIDDLE
+.studio__left-middle--after-hover {
+  background-color: $color-black!important;
+  max-height: 72rem;
+  width: 100%;
+  position: relative;
+
+  h1 {
+    padding: 5rem;
+    @include center-vertical-and-horizontal;
+    font-size: $font-size-big;
+    font-weight: 600;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+    color: $color-gray-dark;
+  }
+}
+
+.studio__right-middle--after-hover {
+  background-color: $plus-button-bg-hover;
+  max-height: 72rem;
+  padding: 2rem;
+
+  color: $color-white;
+
+  animation: movieInbottom .5s ease-out .75s;
+  animation-fill-mode: backwards;
+}
+
+
+//BEFORE PLUS BUTTON HOVER/CLICK STYLE --BOTTOM
 .studio__left-bottom {
   position: relative;
   transition: transform .3s;
@@ -135,6 +218,15 @@
     right: 2.5%;
     bottom: 0;
 
+    transition: transform .3s;
+
+    &:hover,
+    &:active {
+      cursor: pointer;
+      background-position: 100%;
+      background-color: rgba($plus-button-bg-hover, .5);
+    }
+
     i {
       color: $color-white;
       @include center-vertical-and-horizontal;
@@ -150,5 +242,34 @@
     color: $color-gray-dark-dip;
     line-height: 1.5;
     letter-spacing: .5px;
+  }
+}
+
+//AFTER PLUS BUTTON HOVER/CLICK STYLE --BOTTOM
+.studio__left-bottom--after-hover {
+  background-color: $plus-button-bg-hover;
+  max-height: 72rem;
+  padding: 2rem;
+
+  color: $color-white;
+
+  animation: movieInbottom .5s ease-out .75s;
+  animation-fill-mode: backwards;
+}
+
+.studio__right-bottom--after-hover {
+  background-color: $color-black!important;
+  max-height: 72rem;
+  width: 100%;
+  position: relative;
+
+  h1 {
+    padding: 5rem;
+    @include center-vertical-and-horizontal;
+    font-size: $font-size-big;
+    font-weight: 600;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+    color: $color-gray-dark;
   }
 }

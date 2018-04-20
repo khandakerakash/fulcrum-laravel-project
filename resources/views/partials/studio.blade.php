@@ -20,10 +20,10 @@
                     <p class="paragraph u-justify-text studio__right-top--text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi possimus quas qui quia quos similique vel vero. Accusamus atque culpa cum cumque est facilis id ipsa, mollitia.
                     </p>
-                    <p class="paragraph u-justify-text studio__right--text">
+                    <p class="paragraph u-justify-text studio__right-top--text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi.
                     </p>
-                    <p class="paragraph u-justify-text studio__right--text">
+                    <p class="paragraph u-justify-text studio__right-top--text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem.
                     </p>
                     <a href="#" class="btn-text">Learn more &rarr;</a>
@@ -31,6 +31,40 @@
             </div>
         </div>
     </div><!-- STUDIO TOP SECTION -->
+
+    <!-- If `.studio__left-top--btn-plus` mouse on hover/click then under this divs will be displayed
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="studio__left-top--after-hover">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+
+                    <p class="paragraph u-justify-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi possimus quas qui quia quos similique vel vero. Accusamus atque culpa cum cumque est facilis id ipsa, mollitia.
+                    </p>
+                    <p class="paragraph u-justify-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi.
+                    </p>
+                    <p class="paragraph u-justify-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem.
+                    </p>
+                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="studio__right-top--after-hover">
+                    <h1>Team Work</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <!-- STUDIO TOP SECTION -->
 
     <div class="container">
         <div class="row">
@@ -57,7 +91,34 @@
                 </div>
             </div>
         </div>
-    </div><!-- STUDIO MIDDLE SECTION -->
+    </div>
+
+    <!-- If `.studio__left-top--btn-plus` mouse on hover/click then under this divs will be displayed
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="studio__left-middle--after-hover">
+                    <h1>Creation</h1>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="studio__right-middle--after-hover">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+
+                    <p class="paragraph u-justify-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <!-- STUDIO MIDDLE SECTION -->
 
     <div class="container">
         <div class="row">
@@ -84,5 +145,32 @@
                 </div>
             </div>
         </div>
-    </div><!-- STUDIO BOTTOM SECTION -->
+    </div>
+
+    <!-- If `.studio__left-top--btn-plus` mouse on hover/click then under this divs will be displayed
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="studio__left-bottom--after-hover">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+
+                    <p class="paragraph u-justify-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="studio__right-bottom--after-hover">
+                    <h1>Designing</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <!-- STUDIO BOTTOM SECTION -->
 </section>

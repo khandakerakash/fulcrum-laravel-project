@@ -9093,6 +9093,17 @@ body {
   position: absolute;
   right: 1.5%;
   bottom: 0;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.studio__left-top--btn-plus:hover,
+.studio__left-top--btn-plus:active {
+  cursor: pointer;
+  background-position: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 @media (min-width: 112.5em) {
@@ -9157,6 +9168,38 @@ body {
   letter-spacing: .5px;
 }
 
+.studio__left-top--after-hover {
+  background-color: rgba(255, 0, 0, 0.4);
+  max-height: 72rem;
+  padding: 2rem;
+  color: #fff;
+  -webkit-animation: movieInbottom .5s ease-out .75s;
+          animation: movieInbottom .5s ease-out .75s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.studio__right-top--after-hover {
+  background-color: #000 !important;
+  max-height: 72rem;
+  width: 100%;
+  position: relative;
+}
+
+.studio__right-top--after-hover h1 {
+  padding: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+  color: #777;
+}
+
 .studio__left-middle {
   max-height: 72rem;
   padding: 4rem 0;
@@ -9166,6 +9209,10 @@ body {
   color: #999;
   line-height: 1.5;
   letter-spacing: .5px;
+  -webkit-animation: movieInbottom .5s ease-out .75s;
+          animation: movieInbottom .5s ease-out .75s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
 .studio__right-middle {
@@ -9194,6 +9241,17 @@ body {
   position: absolute;
   left: 2.5%;
   bottom: 0;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.studio__right-middle--btn-plus:hover,
+.studio__right-middle--btn-plus:active {
+  cursor: pointer;
+  background-position: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .studio__right-middle--btn-plus i {
@@ -9203,6 +9261,38 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.studio__left-middle--after-hover {
+  background-color: #000 !important;
+  max-height: 72rem;
+  width: 100%;
+  position: relative;
+}
+
+.studio__left-middle--after-hover h1 {
+  padding: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.studio__right-middle--after-hover {
+  background-color: rgba(255, 0, 0, 0.4);
+  max-height: 72rem;
+  padding: 2rem;
+  color: #fff;
+  -webkit-animation: movieInbottom .5s ease-out .75s;
+          animation: movieInbottom .5s ease-out .75s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
 }
 
 .studio__left-bottom {
@@ -9232,6 +9322,17 @@ body {
   position: absolute;
   right: 2.5%;
   bottom: 0;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.studio__left-bottom--btn-plus:hover,
+.studio__left-bottom--btn-plus:active {
+  cursor: pointer;
+  background-position: 100%;
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .studio__left-bottom--btn-plus i {
@@ -9252,6 +9353,38 @@ body {
   color: #999;
   line-height: 1.5;
   letter-spacing: .5px;
+}
+
+.studio__left-bottom--after-hover {
+  background-color: rgba(255, 0, 0, 0.4);
+  max-height: 72rem;
+  padding: 2rem;
+  color: #fff;
+  -webkit-animation: movieInbottom .5s ease-out .75s;
+          animation: movieInbottom .5s ease-out .75s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.studio__right-bottom--after-hover {
+  background-color: #000 !important;
+  max-height: 72rem;
+  width: 100%;
+  position: relative;
+}
+
+.studio__right-bottom--after-hover h1 {
+  padding: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 1.5rem;
+  text-transform: uppercase;
+  color: #777;
 }
 
 .header {
