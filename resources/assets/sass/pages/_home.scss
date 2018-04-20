@@ -4,6 +4,10 @@
 
 #slider-section {
   height: 80vh !important;
+
+  @include respond(common-phone) {
+    height: 50vh !important;
+  }
 }
 
 .feature-section {
@@ -11,5 +15,10 @@
 }
 
 .studio-section {
-  padding-bottom: 10rem;
+  margin-bottom: 20rem !important;
+}
+
+.story-section {
+  padding: 5rem 0 !important;
+  position: relative;
 }
