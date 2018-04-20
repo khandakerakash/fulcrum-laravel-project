@@ -43,7 +43,8 @@ body {
   }
 
   @include respond(phone) {
-    font-size: 1.8rem;
+    font-size: $default-font-size;
+    font-weight: 400;
   }
 
   &:hover {

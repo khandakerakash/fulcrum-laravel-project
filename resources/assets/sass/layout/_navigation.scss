@@ -3,6 +3,10 @@
   &--logo {
     padding: 1rem 3rem 0;
 
+    @include respond(desktop-22) {
+      padding: 0 3rem 0 !important;
+    }
+
     @include respond(tab-land) {
       padding: 0 3rem 0 !important;
     }
@@ -15,6 +19,10 @@
 
   &--menu {
     padding-top: 2.5rem;
+
+    @include respond(desktop-22) {
+      padding-top: .5rem !important;
+    }
 
     @include respond(tab-land) {
       padding-top: .5rem !important;
@@ -32,15 +40,35 @@
     width:  68% !important;
   }
 
+  @include respond(desktop-22) {
+    width:  64% !important;
+  }
+
+  @include respond(desktop-20) {
+    width:  62% !important;
+  }
+
+  @include respond(desktop-19) {
+    width:  56% !important;
+  }
+
+  @include respond(notebook-15) {
+    width:  55% !important;
+  }
+
   @include respond(tab-land) {
     width: 49.5% !important;
+  }
+
+  @include respond(notebook-13) {
+    width: 38% !important;
   }
 
   @include respond(tab-port) {
     width: 32.5% !important;
   }
 
-  @include respond(phone) {
+  @include respond(common-phone) {
     display: none;
   }
 

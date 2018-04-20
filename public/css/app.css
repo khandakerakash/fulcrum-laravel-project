@@ -8353,8 +8353,15 @@ button.close {
 /*
 000   - 600px:  Phone
 600px - 900px:  Tablet portrait
+768px - 800px: Common iPad/Phone/Nexus
 900px - 1200px: Tablet landscape
 [1200px - 1800px] is our normal styles apply.
+
+1024px --- 13" Notebook
+1366px --- 15" Notebook
+1440px --- 19" Desktop
+1600px --- 20" Desktop
+1680px --- 22" Desktop
 1800px + :      Big desktop
 
 $breakpoint argument choices:
@@ -8595,7 +8602,8 @@ body {
 
 @media (max-width: 37.5em) {
   .heading-secondary {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
   }
 }
 
@@ -8807,6 +8815,12 @@ body {
   padding: 1rem 3rem 0;
 }
 
+@media (max-width: 105em) {
+  .main__nav--logo {
+    padding: 0 3rem 0 !important;
+  }
+}
+
 @media (max-width: 75em) {
   .main__nav--logo {
     padding: 0 3rem 0 !important;
@@ -8820,6 +8834,12 @@ body {
 
 .main__nav--menu {
   padding-top: 2.5rem;
+}
+
+@media (max-width: 105em) {
+  .main__nav--menu {
+    padding-top: .5rem !important;
+  }
 }
 
 @media (max-width: 75em) {
@@ -8840,9 +8860,39 @@ body {
   }
 }
 
+@media (max-width: 105em) {
+  .form {
+    width: 64% !important;
+  }
+}
+
+@media (max-width: 100em) {
+  .form {
+    width: 62% !important;
+  }
+}
+
+@media (max-width: 90em) {
+  .form {
+    width: 56% !important;
+  }
+}
+
+@media (max-width: 85.5em) {
+  .form {
+    width: 55% !important;
+  }
+}
+
 @media (max-width: 75em) {
   .form {
     width: 49.5% !important;
+  }
+}
+
+@media (max-width: 64em) {
+  .form {
+    width: 38% !important;
   }
 }
 
@@ -8852,7 +8902,7 @@ body {
   }
 }
 
-@media (max-width: 37.5em) {
+@media (max-width: 50em) {
   .form {
     display: none;
   }

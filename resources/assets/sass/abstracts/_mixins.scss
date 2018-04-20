@@ -18,8 +18,15 @@
 /*
 000   - 600px:  Phone
 600px - 900px:  Tablet portrait
+768px - 800px: Common iPad/Phone/Nexus
 900px - 1200px: Tablet landscape
 [1200px - 1800px] is our normal styles apply.
+
+1024px --- 13" Notebook
+1366px --- 15" Notebook
+1440px --- 19" Desktop
+1600px --- 20" Desktop
+1680px --- 22" Desktop
 1800px + :      Big desktop
 
 $breakpoint argument choices:
@@ -37,11 +44,29 @@ ORDER: Base + typography > General layout + grid > Page layout> Components
   @if($breakpoint == phone) {
     @media (max-width: 37.5em) { @content }; // 600px
   }
+  @if($breakpoint == common-phone) {
+    @media (max-width: 50em) { @content }; // 768px - 800px (Common iPad/Phone/Nexus)
+  }
   @if($breakpoint == tab-port) {
     @media (max-width: 56.25em) { @content }; // 900px
   }
+  @if($breakpoint == notebook-13) {
+    @media (max-width: 64em) { @content }; // 1024px
+  }
   @if($breakpoint == tab-land) {
     @media (max-width: 75em) { @content }; // 1200px
+  }
+  @if($breakpoint == notebook-15) {
+    @media (max-width: 85.5em) { @content }; // 1366px
+  }
+  @if($breakpoint == desktop-19) {
+    @media (max-width: 90em) { @content }; // 1600px
+  }
+  @if($breakpoint == desktop-20) {
+    @media (max-width: 100em) { @content }; // 1600px
+  }
+  @if($breakpoint == desktop-22) {
+    @media (max-width: 105em) { @content }; // 1680px
   }
   @if($breakpoint == big-desktop) {
     @media (min-width: 112.5em) { @content }; // 1800px
