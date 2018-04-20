@@ -14,13 +14,13 @@
                     </blockquote>
 
                     <p class="paragraph u-justify-text studio__right--text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi possimus quas qui quia quos similique vel vero. Accusamus atque culpa cum cumque est facilis id ipsa, mollitia nemo non odio optio praesentium quae quas quo ratione reprehenderit saepe ullam.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi possimus quas qui quia quos similique vel vero. Accusamus atque culpa cum cumque est facilis id ipsa, mollitia.
                     </p>
                     <p class="paragraph u-justify-text studio__right--text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi possimus quas qui quia quos similique vel vero. Accusamus atque culpa cum cumque est facilis id ipsa.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi.
                     </p>
                     <p class="paragraph u-justify-text studio__right--text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi possimus quas qui quia quos similique vel vero.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem.
                     </p>
                     <a href="#" class="btn-text">Learn more &rarr;</a>
                 </div>
