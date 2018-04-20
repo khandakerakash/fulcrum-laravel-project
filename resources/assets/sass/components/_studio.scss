@@ -1,11 +1,148 @@
-.studio__left {
+//STUDIO TOP PART
+.studio__left-top {
+  position: relative;
+  transition: transform .3s;
+  max-height: 72rem;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-position: 100%;
+    background-color: rgba($color-primary, .5);
+  }
 
   &--bg {
     opacity: .4 !important;
   }
+
+  &--btn-plus {
+    background-color: rgba($color-black, .1);
+    width: 10.6rem;
+    height: 10rem;
+    position: absolute;
+    right: 1.5%;
+    bottom: 0;
+
+    @include respond(big-desktop) {
+      right: 1.4%;
+    }
+
+    @include respond(desktop-19) {
+      right: 1.8%;
+    }
+
+    @include respond(tab-land) {
+      right: 2%;
+    }
+
+    @include respond(notebook-13) {
+      right: 1.5%;
+    }
+
+    @include respond(tab-port) {
+      right: 1.7%;
+    }
+
+    @include respond(common-phone) {
+      right: 1.9%;
+    }
+
+    @include respond(phone) {
+      right: 2.5%;
+    }
+
+    i {
+      color: $color-white;
+      @include center-vertical-and-horizontal;
+    }
+  }
 }
 
-.studio__right {
+.studio__right-top {
+  max-height: 72rem;
+  padding: 4rem 0;
+
+  &--text {
+    color: $color-gray-dark-dip;
+    line-height: 1.5;
+    letter-spacing: .5px;
+  }
+}
+
+//STUDIO MIDDLE PART
+.studio__left-middle {
+  max-height: 72rem;
+  padding: 4rem 0;
+
+  &--text {
+    color: $color-gray-dark-dip;
+    line-height: 1.5;
+    letter-spacing: .5px;
+  }
+}
+
+.studio__right-middle {
+  position: relative;
+  transition: transform .3s;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-position: 100%;
+    background-color: rgba($color-primary, .5);
+  }
+
+  &--bg {
+    opacity: .4 !important;
+  }
+
+  &--btn-plus {
+    background-color: rgba($color-black, .1);
+    width: 10.6rem;
+    height: 10rem;
+    position: absolute;
+    left: 2.5%;
+    bottom: 0;
+
+    i {
+      color: $color-white;
+      @include center-vertical-and-horizontal;
+    }
+  }
+}
+
+.studio__left-bottom {
+  position: relative;
+  transition: transform .3s;
+  max-height: 72rem;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-position: 100%;
+    background-color: rgba($color-primary, .5);
+  }
+
+  &--bg {
+    opacity: .4 !important;
+  }
+
+  &--btn-plus {
+    background-color: rgba($color-black, .1);
+    width: 10.6rem;
+    height: 10rem;
+    position: absolute;
+    right: 2.5%;
+    bottom: 0;
+
+    i {
+      color: $color-white;
+      @include center-vertical-and-horizontal;
+    }
+  }
+}
+
+.studio__right-bottom {
   max-height: 72rem;
   padding: 4rem 0;
 
