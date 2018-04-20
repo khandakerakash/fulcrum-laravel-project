@@ -61,8 +61,14 @@ body {
 
 .paragraph {
   font-size: $default-font-size;
+  font-weight: 300;
 
   &:not(:last-child) {
     margin-bottom: 3rem;
   }
+}
+
+.blockquote {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
 }

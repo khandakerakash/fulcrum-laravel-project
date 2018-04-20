@@ -1,0 +1,16 @@
+.studio__left {
+
+  &--bg {
+    opacity: .4 !important;
+  }
+}
+
+.studio__right {
+  padding: 5rem 0;
+
+  &--text {
+    color: $color-gray-dark-dip;
+    line-height: 1.5;
+    letter-spacing: .5px;
+  }
+}
