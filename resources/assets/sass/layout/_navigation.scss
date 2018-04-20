@@ -19,8 +19,17 @@
   border-left: 1px solid #d4d4d4 !important;
   border-right: 1px solid #d4d4d4 !important;
 
+  @include respond(tab-land) {
+    width: 49.5% !important;
+  }
+
   @include respond(tab-port) {
-    width: 100%;
+    width: 32.5% !important;
+  }
+
+  @include respond(phone) {
+    padding-top: 2rem;
+    width: 100% !important;
   }
 
   &__group {
