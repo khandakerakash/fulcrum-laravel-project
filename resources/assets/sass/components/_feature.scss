@@ -1,3 +1,31 @@
+.feature__heading {
+  margin-bottom: 10rem !important;
+
+  span {
+    display: inline-block;
+    position: relative;
+  }
+
+  span:before,
+  span:after {
+    content: "";
+    position: absolute;
+    top: 2.5rem;
+    width: 100% !important;
+    border-bottom: 1px solid $color-gray-light;
+  }
+
+  span:before {
+    right: 100%;
+    margin-right: 2rem;
+  }
+
+  span:after {
+    left: 100%;
+    margin-left: 2rem;
+  }
+}
+
 .feature-box {
   background-color: rgba($color-white, .8);
   font-size: 1.5rem;
