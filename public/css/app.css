@@ -8519,7 +8519,7 @@ html {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #E7E6E6;
+  background-color: #fff;
 }
 
 @media (max-width: 56.25em) {
@@ -8544,6 +8544,79 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #777;
+}
+
+.heading-primary {
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.header__mid--text {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 1.5rem;
+  display: block;
+  -webkit-animation-name: moveInLeft;
+          animation-name: moveInLeft;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+@media (max-width: 37.5em) {
+  .header__mid--text {
+    font-size: 1.6rem;
+    letter-spacing: 1rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#7ed56f), to(#28b485));
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+@media (max-width: 56.25em) {
+  .heading-secondary {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+}
+
+.heading-secondary:hover {
+  -webkit-transform: skewY(2deg) skewX(15deg) scale(1.1);
+          transform: skewY(2deg) skewX(15deg) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+}
+
+.paragraph:not(:last-child) {
+  margin-bottom: 3rem;
 }
 
 .u-center-text {
@@ -8687,6 +8760,15 @@ body {
   background-color: #0285CC;
 }
 
+.carousel {
+  height: 70vh !important;
+}
+
+.carousel-inner img {
+  height: 70vh !important;
+  width: 100% !important;
+}
+
 .h-row {
   max-width: 100%;
   margin: 0 auto;
@@ -8779,37 +8861,102 @@ body {
 }
 
 .header__mid {
-  padding: 2rem;
+  padding: .7rem;
   background: linear-gradient(-135deg, #8649D6 0, #2791D2 100%);
 }
 
-.main__nav {
-  min-height: 10vh !important;
-}
-
 .main__nav--logo {
-  border-right: 1px solid #d4d4d4 !important;
-  padding: 0 3rem;
+  padding: 1rem 3rem 0;
 }
 
 .main__nav--search-box {
-  padding: 0 3rem;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .main__nav--menu {
-  padding-top: 3rem;
+  padding-top: 2.5rem;
+}
+
+.form {
+  width: 68% !important;
   border-left: 1px solid #d4d4d4 !important;
+  border-right: 1px solid #d4d4d4 !important;
 }
 
-.section-features {
-  margin-bottom: 10rem;
+@media (max-width: 56.25em) {
+  .form {
+    width: 100%;
+  }
 }
 
-.section-conceptual {
-  margin-bottom: 10rem;
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 2.2rem 0 !important;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 100% !important;
+  display: block;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
-.section-feature-bottom {
-  margin-bottom: 10rem;
+@media (max-width: 56.25em) {
+  .form__input {
+    width: 100%;
+  }
+}
+
+.form__input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #55c57a;
+}
+
+.form__input:focus:invalid {
+  border-bottom: 3px solid #ff7730 !important;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #999;
+  text-transform: uppercase;
+  text-align: left !important;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  padding-left: 2rem;
+}
+
+.navbar-default {
+  background-color: #ffffff !important;
+}
+
+.navbar {
+  margin: 0 !important;
+}
+
+.navbar ul li a:hover {
+  color: #E74430 !important;
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #55c57a;
+}
+
+.navbar ul li a:active {
+  color: #28b485 !important;
+}
+
+.active-page {
+  color: #28b485 !important;
+}
+
+#slider-section {
+  height: 70vh !important;
+  margin-bottom: 5rem;
+  background-color: 1.6rem !important;
 }
 

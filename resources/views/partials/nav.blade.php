@@ -1,4 +1,4 @@
-<nav class="navbar u-border-nav main__nav">
+<nav class="navbar navbar-default u-border-nav main__nav">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -9,19 +9,25 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <img src="{{asset('img/logo.png')}}" alt="Fulcrum Logo" class="main__nav--logo">
+                <img src="{{asset('img/logo.png')}}" alt="Fulcrum Logo" class="img-responsive main__nav--logo">
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <form class="navbar-form navbar-left main__nav--search-box">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+            {{--<form class="navbar-form navbar-left main__nav--search-box">--}}
+                {{--<div class="form-group input-group-lg">--}}
+                    {{--<input type="text" class="form-control" placeholder="Search">--}}
+                {{--</div>--}}
+            {{--</form>--}}
+            <form action="#" class="navbar-form navbar-left main__nav--search-box form">
+                <div class="form__group">
+                    <input type="text" class="form__input u-center-text" placeholder="Search"  id="name">
                 </div>
             </form>
+
             <ul class="nav navbar-nav navbar-right main__nav--menu">
-                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li><a class="active-page" href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Agence</a></li>
                 <li><a href="#">Projects</a></li>
