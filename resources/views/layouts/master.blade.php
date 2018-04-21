@@ -24,6 +24,7 @@
 <body>
 
 <div id="app">
+    @include('partials/utility/preloader')
     @include('partials/header')
     @include('partials/nav')
     @yield('content')
@@ -31,7 +32,7 @@
 <!-- /#app -->
 
 <!-- Scripts -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="{{ asset('js/wow.min.js') }}"></script>
 <script src="{{ asset('js/custom_jquery_scripts.js') }}"></script>
 @yield('app-scripts')

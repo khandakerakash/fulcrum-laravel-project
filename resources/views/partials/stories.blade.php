@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="story wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+                <div class="story wow bounceIn" data-wow-duration="1s" data-wow-delay="1.5s">
                     <figure class="story__shape">
                         <img src="{{asset('img/clients/client-1.jpg')}}" alt="Person work with us" class="story__img img-responsive">
                         <figcaption class="story__caption u-center-text">Mr. XYZ</figcaption>
