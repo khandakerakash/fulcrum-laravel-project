@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet">
     <!-- ICON-FONT -->
     <link rel="stylesheet" href="{{ asset('css/icon-font.css') }}">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
     <!-- FONT AWESOME CDN -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Styles -->
@@ -29,7 +31,9 @@
 <!-- /#app -->
 
 <!-- Scripts -->
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="{{ asset('js/wow.min.js') }}"></script>
+<script src="{{ asset('js/custom_jquery_scripts.js') }}"></script>
 @yield('app-scripts')
 
 </body>

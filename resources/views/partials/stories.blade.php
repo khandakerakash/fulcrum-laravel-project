@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="u-center-text u-margin-bottom-big">
+                <div class="u-center-text u-margin-bottom-big  wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".5s">
                     <h2 class="heading-secondary">
                         We make people genuinely happy
                     </h2>
@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="story">
+                <div class="story wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
                     <figure class="story__shape">
                         <img src="{{asset('img/clients/client-1.jpg')}}" alt="Person work with us" class="story__img img-responsive">
                         <figcaption class="story__caption u-center-text">Mr. XYZ</figcaption>
@@ -38,7 +38,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="u-center-text u-margin-top-x-big">
+                <div class="u-center-text u-margin-top-x-big wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s">
                     <a href="#" class="btn-text">Read all stories &rarr;</a>
                 </div>
             </div>

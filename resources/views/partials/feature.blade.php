@@ -2,14 +2,14 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <div class="feature__heading u-center-text">
+                <div class="feature__heading u-center-text wow fadeInUp" data-wow-duration=".3s" data-wow-delay=".5s">
                     <span class="heading-secondary text">Our Features</span>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-3">
-                <div class="feature-box u-center-text">
+                <div class="feature-box u-center-text wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                     <i class="feature-box__icon u-margin-bottom-x-small icon-basic-world"></i>
                     <h3 class="heading-tertiary u-margin-bottom-small">Explore the world</h3>
                     <p class="feature-box__text">
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="feature-box u-center-text">
+                <div class="feature-box u-center-text wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
                     <i class="feature-box__icon u-margin-bottom-x-small icon-basic-compass"></i>
                     <h3 class="heading-tertiary u-margin-bottom-small">Punctuality</h3>
                     <p class="feature-box__text">
@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="feature-box u-center-text">
+                <div class="feature-box u-center-text wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s">
                     <i class="feature-box__icon u-margin-bottom-x-small icon-basic-map"></i>
                     <h3 class="heading-tertiary u-margin-bottom-small">Find your way</h3>
                     <p class="feature-box__text">
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="feature-box u-center-text">
+                <div class="feature-box u-center-text wow fadeInUp" data-wow-duration="2s" data-wow-delay="2.5s">
                     <i class="feature-box__icon u-margin-bottom-x-small icon-basic-heart"></i>
                     <h3 class="heading-tertiary u-margin-bottom-small">We're committed</h3>
                     <p class="feature-box__text">
