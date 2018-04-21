@@ -72,6 +72,14 @@
   max-height: 72rem;
   padding: 4rem 0;
 
+  @include respond(notebook-15) {
+    padding: .5rem 0 !important;
+  }
+
+  @include respond(tab-land) {
+    padding: 1rem 0 !important;
+  }
+
   &--text {
     color: $color-gray-dark-dip;
     line-height: 1.5;

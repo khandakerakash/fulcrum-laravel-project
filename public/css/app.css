@@ -9162,6 +9162,18 @@ body {
   padding: 4rem 0;
 }
 
+@media (max-width: 85.5em) {
+  .studio__right-top {
+    padding: .5rem 0 !important;
+  }
+}
+
+@media (max-width: 75em) {
+  .studio__right-top {
+    padding: 1rem 0 !important;
+  }
+}
+
 .studio__right-top--text {
   color: #999;
   line-height: 1.5;
