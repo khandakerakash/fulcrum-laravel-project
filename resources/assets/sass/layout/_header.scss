@@ -2,7 +2,7 @@
   box-shadow: 0 3rem 6rem rgba($color-black, .1);
 
   &__top {
-    padding: .5rem;
+    padding: .5rem 0;
     background: linear-gradient(
                     to right bottom,
                     rgba($header-top-color-light, 0.8),

@@ -1,4 +1,4 @@
-<section class="feature-section">
+<section class="feature-section-top">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">

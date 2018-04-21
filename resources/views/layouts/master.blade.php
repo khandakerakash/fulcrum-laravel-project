@@ -25,8 +25,8 @@
 
 <div id="app">
     @include('partials/utility/preloader')
-    @include('partials/header')
-    @include('partials/nav')
+    @include('partials/common/header')
+    @include('partials/common/nav')
     @yield('content')
 </div>
 <!-- /#app -->
