@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-        </div> <!-- Before Hover PArt -->
+        </div> <!-- Before Hover Part -->
 
         <!-- If `.studio__left-top--btn-plus` mouse on hover/click then under this divs will be displayed -->
         <div class="row">
@@ -57,31 +57,33 @@
 
             <div class="col-lg-5">
                 <div class="studio__right-top--after-hover">
-                    <div class="studio__right-top--after-hover__details">
+                    <div class="studio__right-top--after-hover__heading">
                         <h2>Studio de creation</h2>
                     </div>
                 </div>
             </div>
 
-        </div>
-    </div><!-- STUDIO TOP SECTION -->
+        </div><!-- After Hover PArt -->
+    </div>
+    <!-- Studio de creation -->
 
-
-    <!-- STUDIO TOP SECTION -->
 
     <div class="container">
         <div class="row">
+
             <div class="col-lg-6">
                 <div class="studio__left-middle">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Lorem ipsum dolor sit amet.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                    </blockquote>
+                    <div class="studio__left-middle__heading">
+                        <h2>Development web &nbsp;</h2>
+                        <h3>Development/Integration, E-commerces</h3>
+                    </div>
 
-                    <p class="paragraph u-justify-text studio__left-middle--text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                    <div class="studio__left-middle__details">
+                        <p class="paragraph u-justify-text">
+                            Nous proposons des services complets de programmation Front end / Back end, de developpement responsive, d’integration HTML / CSS / JQUERY, de conception de BDD relationnelle,... Les cles d'un developpement et d'une integration web de qualite a la fois respectueuses des normes et standards en vigueur mais egalement attentives par notre veille technologique aux avancees qui forgent le web de demain.
+                        </p>
+                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                    </div>
                 </div>
             </div>
 
@@ -93,35 +95,45 @@
                     <i class="fa fa-plus fa-2x"></i>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- If `.studio__left-top--btn-plus` mouse on hover/click then under this divs will be displayed
-    <div class="container">
+        </div><!-- Before Hover Part -->
+
+        <!-- If `.studio__left-top--btn-plus` mouse on hover/click then under this divs will be displayed -->
         <div class="row">
+
             <div class="col-lg-6">
                 <div class="studio__left-middle--after-hover">
-                    <h1>Creation</h1>
+                    <div class="studio__left-middle--after-hover__heading">
+                        <h2>Development web &nbsp;</h2>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="studio__right-middle--after-hover">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Lorem ipsum dolor sit amet.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                    </blockquote>
+                    <div class="studio__right-middle--after-hover__heading">
+                        <h2>Programmation & integration</h2>
+                        <h3>Concevoir des experiences</h3>
+                    </div>
 
-                    <p class="paragraph u-justify-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                    <div class="studio__right-middle--after-hover__details">
+                        <p class="paragraph u-justify-text">
+                            <span>LANGAGES / OUTILS</span>
+                        </p>
+                        <ul>
+                            <li>HTML 5 / CSS / JS / PHP / MYSQL</li>
+                            <li>CMS : Specialistes Drupal et WordPress</li>
+                            <li>E-commerce : Drupal commerce / Magento</li>
+                            <li>Framework : Codeigniter / Bootstrap</li>
+                        </ul>
+                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                    </div>
                 </div>
             </div>
-        </div>
+
+        </div><!-- After Hover Part -->
     </div>
-    -->
-    <!-- STUDIO MIDDLE SECTION -->
+    <!-- Development web -->
 
     <div class="container">
         <div class="row">
@@ -136,44 +148,52 @@
 
             <div class="col-lg-6">
                 <div class="studio__right-bottom">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Lorem ipsum dolor sit amet.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                    </blockquote>
+                    <div class="studio__right-bottom__heading">
+                        <h2>Strategie digitale</h2>
+                        <h3>Referencement, Marketing web & Social networking</h3>
+                    </div>
 
-                    <p class="paragraph u-justify-text studio__right-bottom--text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                    <div class="studio__right-bottom__details">
+                        <p class="paragraph"> Nous optimisons vos sites et vous conseillons dans l’amélioration tant au niveau du code que de vos contenus multimedia.<br> Nous effectuons le suivi et l’analyse statistiques de la fréquentation, organisons vos campagnes de référencement, e-mailings et déployons vos réseaux sociaux.<br> Notre vision globale de la conception web permet la mise en place efficace de votre stratégie digitale et plus largement celle de votre communication d'entreprise. </p>
+                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div><!-- Before Hover Part -->
 
-    <!-- If `.studio__left-top--btn-plus` mouse on hover/click then under this divs will be displayed
-    <div class="container">
+        <!-- If `.studio__left-top--btn-plus` mouse on hover/click then under this divs will be displayed -->
         <div class="row">
             <div class="col-lg-6">
                 <div class="studio__left-bottom--after-hover">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">Lorem ipsum dolor sit amet.</p>
-                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                    </blockquote>
+                    <div class="studio__left-bottom--after-hover__heading">
+                        <h2>SEM / Renforcer votre visibilite</h2>
+                        <h3>Accompagner votre developpement</h3>
+                    </div>
 
-                    <p class="paragraph u-justify-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis culpa debitis, delectus dolorem, doloribus, error eum eveniet ex maxime modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                    <div class="studio__left-bottom--after-hover__details">
+                        <p class="paragraph u-justify-text">
+                            <span>Service / Solutions</span>
+                        </p>
+                        <ul>
+                            <li>Audit, Analyse et suivi statistique</li>
+                            <li>Acquistion et developpement d’audience</li>
+                            <li>SEO / Referencement naturel</li>
+                            <li>SEA / Publicite sur les moteurs de recherche</li>
+                            <li>SMO / Social networking / management</li>
+                        </ul>
+                        <a href="#" class="btn-text">Learn more &rarr;</a>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="studio__right-bottom--after-hover">
-                    <h1>Designing</h1>
+                    <div class="studio__right-bottom--after-hover__heading">
+                        <h2>Strategie digitale &nbsp;</h2>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    -->
-    <!-- STUDIO BOTTOM SECTION -->
+    </div><!-- After Hover Part -->
+    <!-- Strategie digitale -->
 </section>

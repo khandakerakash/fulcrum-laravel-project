@@ -6,7 +6,8 @@
   margin-bottom: 4rem !important;
 
   &--bg {
-
+    height: 70vh;
+    width: 100%;
   }
 
   &--btn-plus {
@@ -15,7 +16,7 @@
     height: 10rem;
     position: absolute;
     right: 1.5%;
-    bottom: 0;
+    bottom: 4.8rem;
 
     @include respond(big-desktop) {
       right: 1.4%;
@@ -54,7 +55,7 @@
 
 
 .studio__right-top {
-  height: 70vh;
+  height: 72vh;
   padding: 4rem 2rem;
 
   margin-bottom: 4rem !important;
@@ -97,7 +98,6 @@
       color: $color-gray-light !important;
       font-style: italic;
       font-weight: 400;
-      line-height: .3;
       letter-spacing: .2rem;
       font-size: $font-size-medium;
     }
@@ -173,7 +173,6 @@
     ul {
       list-style-type: none;
       padding: 0;
-
       margin-bottom: 8rem !important;
 
       li {
@@ -184,6 +183,10 @@
       }
     }
 
+    a {
+      color: $color-white !important;
+    }
+
   }
 }
 
@@ -191,7 +194,7 @@
   background-color: $bg-color-dark !important;
   height: 72vh;
 
-  &__details {
+  &__heading {
     position: relative;
     width: 100%;
     height: 100%;
@@ -231,22 +234,64 @@
 
 //BEFORE PLUS BUTTON HOVER/CLICK STYLE --MIDDLE
 .studio__left-middle {
-  max-height: 72rem;
-  padding: 4rem 0;
+  height: 50vh;
+  padding: 4rem 2rem;
 
-  &--text {
-    color: $color-gray-dark-dip;
-    line-height: 1.5;
-    letter-spacing: .5px;
+  &__heading {
+    position: relative;
+    text-align: right;
+    margin-bottom: 2rem !important;
 
-    animation: movieInbottom .5s ease-out .75s;
-    animation-fill-mode: backwards;
+    h2 {
+      font-size: $font-size-big;
+      font-weight: 600;
+      font-style: italic;
+      color: $color-black;
+      letter-spacing: 1px;
+
+      position: relative;
+
+      &:after {
+        content: "";
+        background-color: $bg-color-red !important;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        bottom: 1rem;
+        transition: all 1s ease;
+        transition-delay: .8s;
+      }
+    }
+
+    h3 {
+      color: $color-gray-light;
+      font-style: italic;
+      font-weight: 400;
+      letter-spacing: .2rem;
+      font-size: $font-size-medium;
+    }
+  }
+
+  &__details {
+
+    p {
+      color: $color-gray-dark-dip-1;
+      line-height: 1.5;
+      letter-spacing: .5px;
+    }
   }
 }
 
 .studio__right-middle {
+  height: 50vh;
   position: relative;
-  transition: transform .3s;
+
+  img {
+    height: 50vh;
+    width: 100%;
+  }
 
   &--btn-plus {
     background-color: rgba($color-black, .1);
@@ -266,49 +311,129 @@
 
 //AFTER PLUS BUTTON HOVER/CLICK STYLE --MIDDLE
 .studio__left-middle--after-hover {
-  background-color: $color-black!important;
-  max-height: 72rem;
+  background-color: $bg-color-dark!important;
+  height: 50vh;
   width: 100%;
   position: relative;
 
-  h1 {
-    padding: 5rem;
-    @include center-vertical-and-horizontal;
-    font-size: $font-size-big;
-    font-weight: 600;
-    letter-spacing: 1.5rem;
-    text-transform: uppercase;
-    color: $color-gray-dark;
+  color: $color-white;
+
+  &__heading {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all .5s;
+
+    h2 {
+      font-size: $font-size-big;
+      font-weight: 600;
+      font-style: italic;
+      letter-spacing: 1px;
+
+      position: absolute;
+      top: 50%;
+      left: 40%;
+
+      transform: translate(-40%, -50%);
+
+      &:after {
+        content: "";
+        background-color: $bg-color-red !important;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        bottom: 1rem;
+        right: -2rem;
+        transition: all 1s ease;
+        transition-delay: .8s;
+      }
+    }
   }
 }
 
 .studio__right-middle--after-hover {
-  background-color: $plus-button-bg-hover;
-  max-height: 72rem;
+  background-color: rgba($bg-color-red, .6) !important;
+  height: 50vh;
   padding: 2rem;
-
   color: $color-white;
 
-  animation: movieInbottom .5s ease-out .75s;
-  animation-fill-mode: backwards;
+  &__heading {
+    padding: 2rem;
+
+    h2 {
+      font-size: $font-size-big;
+      font-weight: 600;
+      font-style: italic;
+      letter-spacing: 1px;
+      margin-bottom: 0 !important;
+    }
+
+    h3 {
+      color: $bg-color-red;
+      font-style: italic;
+      font-weight: 400;
+      letter-spacing: .2rem;
+      font-size: $font-size-medium;
+    }
+  }
+
+  &__details {
+    padding: 2rem;
+
+    p {
+      text-transform: uppercase;
+      margin-bottom: 0!important;
+
+      span {
+        display: inline-block;
+        position: relative;
+      }
+
+      span:after {
+        content: "";
+        position: absolute;
+        top: 2rem;
+        width: 100% !important;
+        border-bottom: 1px solid $color-white;
+      }
+
+      span:after {
+        left: 100%;
+        margin-left: 1rem;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 8rem !important;
+
+      li {
+        display: block;
+        font-size: $default-font-size;
+        font-weight: 400;
+        font-style: italic;
+      }
+    }
+
+    a {
+      color: $color-white !important;
+    }
+  }
 }
 
 
 //BEFORE PLUS BUTTON HOVER/CLICK STYLE --BOTTOM
 .studio__left-bottom {
   position: relative;
-  transition: transform .3s;
-  max-height: 72rem;
-
-  &:hover,
-  &:active {
-    cursor: pointer;
-    background-position: 100%;
-    background-color: rgba($color-primary, .5);
-  }
+  height: 50vh;
 
   &--bg {
-    opacity: .4 !important;
+    height: 50vh;
+    width: 100%;
   }
 
   &--btn-plus {
@@ -319,15 +444,6 @@
     right: 2.5%;
     bottom: 0;
 
-    transition: transform .3s;
-
-    &:hover,
-    &:active {
-      cursor: pointer;
-      background-position: 100%;
-      background-color: rgba($plus-button-bg-hover, .5);
-    }
-
     i {
       color: $color-white;
       @include center-vertical-and-horizontal;
@@ -336,41 +452,166 @@
 }
 
 .studio__right-bottom {
-  max-height: 72rem;
+  height: 50vh;
   padding: 4rem 0;
 
-  &--text {
-    color: $color-gray-dark-dip;
-    line-height: 1.5;
-    letter-spacing: .5px;
+  &__heading {
+    margin-bottom: 1rem;
+
+    h2 {
+      font-size: $font-size-big;
+      color: $color-black;
+      font-weight: 600;
+      font-style: italic;
+      letter-spacing: 1px;
+      margin-bottom: 0 !important;
+      position: relative;
+
+      &:after {
+        content: "";
+        background-color: $bg-color-red !important;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        bottom: .7rem;
+        transition: all 1s ease;
+        transition-delay: .8s;
+      }
+    }
+
+    h3 {
+      color: $color-gray-light !important;
+      font-style: italic;
+      font-weight: 400;
+      letter-spacing: .2rem;
+      font-size: $font-size-medium;
+    }
+  }
+
+  &__details {
+
+    p {
+      color: $color-gray-dark-dip-1;
+      line-height: 1.5;
+      letter-spacing: .5px;
+      margin-bottom: 1rem !important;
+    }
   }
 }
 
 //AFTER PLUS BUTTON HOVER/CLICK STYLE --BOTTOM
 .studio__left-bottom--after-hover {
-  background-color: $plus-button-bg-hover;
-  max-height: 72rem;
+  background-color: rgba($bg-color-red, .6) !important;
+  height: 50vh;
   padding: 2rem;
-
   color: $color-white;
 
-  animation: movieInbottom .5s ease-out .75s;
-  animation-fill-mode: backwards;
+  &__heading {
+    padding: 0 2rem;
+
+    h2 {
+      font-size: $font-size-big;
+      font-weight: 600;
+      font-style: italic;
+      letter-spacing: 1px;
+      margin-bottom: 0 !important;
+    }
+
+    h3 {
+      color: $bg-color-red;
+      font-style: italic;
+      font-weight: 400;
+      letter-spacing: .2rem;
+      font-size: $font-size-medium;
+    }
+  }
+
+  &__details {
+    padding: 2rem;
+
+    p {
+      text-transform: uppercase;
+      margin-bottom: 0!important;
+
+      span {
+        display: inline-block;
+        position: relative;
+      }
+
+      span:after {
+        content: "";
+        position: absolute;
+        top: 2rem;
+        width: 100% !important;
+        border-bottom: 1px solid $color-white;
+      }
+
+      span:after {
+        left: 100%;
+        margin-left: 1rem;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      //margin: .5rem;
+
+      li {
+        display: block;
+        font-size: $default-font-size;
+        font-weight: 400;
+        font-style: italic;
+      }
+    }
+
+    a {
+      color: $color-white !important;
+    }
+  }
 }
 
 .studio__right-bottom--after-hover {
-  background-color: $color-black!important;
-  max-height: 72rem;
+  background-color: $bg-color-dark!important;
+  height: 50vh;
   width: 100%;
   position: relative;
 
-  h1 {
-    padding: 5rem;
-    @include center-vertical-and-horizontal;
-    font-size: $font-size-big;
-    font-weight: 600;
-    letter-spacing: 1.5rem;
-    text-transform: uppercase;
-    color: $color-gray-dark;
+  &__heading {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all .5s;
+
+    h2 {
+      font-size: $font-size-big;
+      font-weight: 600;
+      font-style: italic;
+      color: $color-white;
+      letter-spacing: 1px;
+
+      position: absolute;
+      top: 50%;
+      left: 40%;
+
+      transform: translate(-40%, -50%);
+
+      &:after {
+        content: "";
+        background-color: $bg-color-red !important;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        bottom: 1rem;
+        right: -2rem;
+        transition: all 1s ease;
+        transition-delay: .8s;
+      }
+    }
   }
 }
