@@ -1,18 +1,12 @@
 //BEFORE PLUS BUTTON HOVER/CLICK STYLE --TOP
 .studio__left-top {
   position: relative;
-  transition: transform .3s;
-  max-height: 72rem;
+  height: 70vh;
 
-  &:hover,
-  &:active {
-    cursor: pointer;
-    background-position: 100%;
-    background-color: rgba($color-primary, .5);
-  }
+  margin-bottom: 4rem !important;
 
   &--bg {
-    opacity: .4 !important;
+
   }
 
   &--btn-plus {
@@ -22,15 +16,6 @@
     position: absolute;
     right: 1.5%;
     bottom: 0;
-
-    transition: transform .3s;
-
-    &:hover,
-    &:active {
-      cursor: pointer;
-      background-position: 100%;
-      background-color: rgba($plus-button-bg-hover, .5);
-    }
 
     @include respond(big-desktop) {
       right: 1.4%;
@@ -69,8 +54,10 @@
 
 
 .studio__right-top {
-  max-height: 72rem;
-  padding: 4rem 0;
+  height: 70vh;
+  padding: 4rem 2rem;
+
+  margin-bottom: 4rem !important;
 
   @include respond(notebook-15) {
     padding: .5rem 0 !important;
@@ -80,39 +67,164 @@
     padding: 1rem 0 !important;
   }
 
-  &--text {
-    color: $color-gray-dark-dip;
-    line-height: 1.5;
-    letter-spacing: .5px;
+  &__heading {
+    margin-bottom: 8rem;
+
+    h2 {
+      font-size: $font-size-big;
+      color: $color-black;
+      font-weight: 600;
+      font-style: italic;
+      letter-spacing: 1px;
+      margin-bottom: 0 !important;
+      position: relative;
+
+      &:after {
+        content: "";
+        background-color: $bg-color-red !important;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        bottom: .7rem;
+        transition: all 1s ease;
+        transition-delay: .8s;
+      }
+    }
+
+    h3 {
+      color: $color-gray-light !important;
+      font-style: italic;
+      font-weight: 400;
+      line-height: .3;
+      letter-spacing: .2rem;
+      font-size: $font-size-medium;
+    }
+  }
+
+  &__details {
+
+    p {
+      max-width: 90%;
+      margin-bottom: 8rem!important;
+
+      color: $color-gray-dark-dip-1;
+      line-height: 1.5;
+      letter-spacing: .5px;
+    }
   }
 }
 
 //AFTER PLUS BUTTON HOVER/CLICK STYLE --TOP
 .studio__left-top--after-hover {
-  background-color: $plus-button-bg-hover;
-  max-height: 72rem;
-  padding: 2rem;
-
+  background-color: rgba($bg-color-red, .6);
+  height: 72vh;
+  padding: 4rem 2rem;
   color: $color-white;
 
-  animation: movieInbottom .5s ease-out .75s;
-  animation-fill-mode: backwards;
+  &__heading {
+    padding: 2rem 10rem;
+
+    h2 {
+      font-size: $font-size-big;
+      font-weight: 600;
+      font-style: italic;
+      letter-spacing: 1px;
+      margin-bottom: 0 !important;
+    }
+
+    h3 {
+      color: $bg-color-red;
+      font-style: italic;
+      font-weight: 400;
+      line-height: .3;
+      letter-spacing: .2rem;
+      font-size: $font-size-medium;
+    }
+  }
+
+  &__details {
+    padding: 2rem 10rem;
+
+    p {
+      text-transform: uppercase;
+      margin-bottom: 0!important;
+
+      span {
+        display: inline-block;
+        position: relative;
+      }
+
+      span:after {
+        content: "";
+        position: absolute;
+        top: 2rem;
+        width: 100% !important;
+        border-bottom: 1px solid $color-white;
+      }
+
+      span:after {
+        left: 100%;
+        margin-left: 1rem;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      margin-bottom: 8rem !important;
+
+      li {
+        display: block;
+        font-size: $default-font-size;
+        font-weight: 400;
+        font-style: italic;
+      }
+    }
+
+  }
 }
 
 .studio__right-top--after-hover {
-  background-color: $color-black!important;
-  max-height: 72rem;
-  width: 100%;
-  position: relative;
+  background-color: $bg-color-dark !important;
+  height: 72vh;
 
-  h1 {
-    padding: 5rem;
-    @include center-vertical-and-horizontal;
-    font-size: $font-size-big;
-    font-weight: 600;
-    letter-spacing: 1.5rem;
-    text-transform: uppercase;
-    color: $color-gray-dark;
+  &__details {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all .5s;
+
+    h2 {
+      font-size: $font-size-big;
+      font-weight: 600;
+      font-style: italic;
+      color: $color-white;
+      letter-spacing: 1px;
+
+      position: absolute;
+      top: 50%;
+      left: 40%;
+
+      transform: translate(-40%, -50%);
+
+      &:after {
+        content: "";
+        background-color: $bg-color-red !important;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        display: inline-block;
+        position: absolute;
+        bottom: 1rem;
+        right: -2rem;
+        transition: all 1s ease;
+        transition-delay: .8s;
+      }
+    }
   }
 }
 
@@ -136,17 +248,6 @@
   position: relative;
   transition: transform .3s;
 
-  &:hover,
-  &:active {
-    cursor: pointer;
-    background-position: 100%;
-    background-color: rgba($color-primary, .5);
-  }
-
-  &--bg {
-    opacity: .4 !important;
-  }
-
   &--btn-plus {
     background-color: rgba($color-black, .1);
     width: 10.6rem;
@@ -155,21 +256,13 @@
     left: 2.5%;
     bottom: 0;
 
-    transition: transform .3s;
-
-    &:hover,
-    &:active {
-      cursor: pointer;
-      background-position: 100%;
-      background-color: rgba($plus-button-bg-hover, .5);
-    }
-
     i {
       color: $color-white;
       @include center-vertical-and-horizontal;
     }
   }
 }
+
 
 //AFTER PLUS BUTTON HOVER/CLICK STYLE --MIDDLE
 .studio__left-middle--after-hover {
