@@ -16,7 +16,8 @@
 // MEDIA QUERY MANAGER
 
 /*
-000   - 600px:  Phone
+000   - 480px: small-phone
+481   - 600px:  Phone
 600px - 900px:  Tablet portrait
 768px - 800px: Common iPad/Phone/Nexus
 900px - 1200px: Tablet landscape
@@ -41,6 +42,9 @@ ORDER: Base + typography > General layout + grid > Page layout> Components
 */
 
 @mixin respond($breakpoint) {
+  @if($breakpoint == small-phone) {
+    @media (max-width: 30em) { @content }; // 480px
+  }
   @if($breakpoint == phone) {
     @media (max-width: 37.5em) { @content }; // 600px
   }
@@ -60,7 +64,7 @@ ORDER: Base + typography > General layout + grid > Page layout> Components
     @media (max-width: 85.5em) { @content }; // 1366px
   }
   @if($breakpoint == desktop-19) {
-    @media (max-width: 90em) { @content }; // 1600px
+    @media (max-width: 90em) { @content }; // 1400px
   }
   @if($breakpoint == desktop-20) {
     @media (max-width: 100em) { @content }; // 1600px

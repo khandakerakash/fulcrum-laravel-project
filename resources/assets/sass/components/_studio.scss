@@ -175,6 +175,10 @@
       padding: 0;
       margin-bottom: 8rem !important;
 
+      @include respond(notebook-13) {
+        margin-bottom: 2rem !important;
+      }
+
       li {
         display: block;
         font-size: $default-font-size;
@@ -242,6 +246,10 @@
     text-align: right;
     margin-bottom: 2rem !important;
 
+    @include respond(desktop-19) {
+      margin-bottom: 0 !important;
+    }
+
     h2 {
       font-size: $font-size-big;
       font-weight: 600;
@@ -280,6 +288,10 @@
       color: $color-gray-dark-dip-1;
       line-height: 1.5;
       letter-spacing: .5px;
+
+      @include respond(desktop-19) {
+        margin-bottom: 0 !important;
+      }
     }
   }
 }
@@ -300,6 +312,22 @@
     position: absolute;
     left: 2.5%;
     bottom: 0;
+
+    @include respond(notebook-13) {
+      left: 1.5%;
+    }
+
+    @include respond(tab-port) {
+      left: 2%;
+    }
+
+    @include respond(phone) {
+      left: 2.5%;
+    }
+
+    @include respond(small-phone) {
+      left: 3.2%;
+    }
 
     i {
       color: $color-white;
@@ -361,7 +389,11 @@
   color: $color-white;
 
   &__heading {
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
+
+    @include respond(notebook-13) {
+      padding: 0 2rem 0 2rem;
+    }
 
     h2 {
       font-size: $font-size-big;
@@ -382,6 +414,10 @@
 
   &__details {
     padding: 2rem;
+
+    @include respond(notebook-13) {
+      padding: 2rem 2rem 0 2rem;
+    }
 
     p {
       text-transform: uppercase;
@@ -409,7 +445,7 @@
     ul {
       list-style-type: none;
       padding: 0;
-      margin-bottom: 8rem !important;
+      margin: 0;
 
       li {
         display: block;
@@ -443,6 +479,22 @@
     position: absolute;
     right: 2.5%;
     bottom: 0;
+
+    @include respond(notebook-13) {
+      right: 1.5%;
+    }
+
+    @include respond(tab-port) {
+      right: 2%;
+    }
+
+    @include respond(phone) {
+      right: 2.5%;
+    }
+
+    @include respond(small-phone) {
+      right: 3.2%;
+    }
 
     i {
       color: $color-white;
@@ -531,6 +583,10 @@
   &__details {
     padding: 2rem;
 
+    @include respond(notebook-13) {
+      padding: 0 2rem;
+    }
+
     p {
       text-transform: uppercase;
       margin-bottom: 0!important;
@@ -557,7 +613,7 @@
     ul {
       list-style-type: none;
       padding: 0;
-      //margin: .5rem;
+      margin: 0;
 
       li {
         display: block;
