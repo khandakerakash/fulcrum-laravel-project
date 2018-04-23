@@ -46,6 +46,10 @@
       right: 2.5%;
     }
 
+    @include respond(small-phone) {
+      bottom: 0!important;
+    }
+
     i {
       color: $color-white;
       @include center-vertical-and-horizontal;
@@ -137,7 +141,6 @@
       color: $bg-color-red;
       font-style: italic;
       font-weight: 400;
-      line-height: .3;
       letter-spacing: .2rem;
       font-size: $font-size-medium;
     }
@@ -216,6 +219,11 @@
       left: 40%;
 
       transform: translate(-40%, -50%);
+
+      @include respond(small-phone) {
+        left: 20%;
+        transform: translate(-20%, -50%);
+      }
 
       &:after {
         content: "";
@@ -363,6 +371,16 @@
       left: 40%;
 
       transform: translate(-40%, -50%);
+
+      @include respond(big-desktop-24) {
+        left: 30%;
+        transform: translate(-30%, -50%);
+      }
+
+      @include respond(small-phone) {
+        left: 20%;
+        transform: translate(-20%, -50%);
+      }
 
       &:after {
         content: "";
@@ -529,6 +547,32 @@
         bottom: .7rem;
         transition: all 1s ease;
         transition-delay: .8s;
+
+        @include respond(big-desktop-24) {
+          bottom: .8rem;
+          right: 18rem;
+        }
+
+        @include respond(desktop-22) {
+          bottom: .8rem;
+          right: 24rem;
+        }
+
+        @include respond(notebook-13) {
+          right: 75rem;
+        }
+
+        @include respond(common-phone) {
+          right: 60rem;
+        }
+
+        @include respond(phone) {
+          right: 40rem;
+        }
+
+        @include respond(small-phone) {
+          right: 15rem;
+        }
       }
     }
 
@@ -653,6 +697,11 @@
       left: 40%;
 
       transform: translate(-40%, -50%);
+
+      @include respond(small-phone) {
+        left: 20%;
+        transform: translate(-20%, -50%);
+      }
 
       &:after {
         content: "";

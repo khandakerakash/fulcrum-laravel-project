@@ -74,4 +74,7 @@ ORDER: Base + typography > General layout + grid > Page layout> Components
   @if($breakpoint == big-desktop) {
     @media (min-width: 112.5em) { @content }; // 1800px
   }
+  @if($breakpoint == big-desktop-24) {
+    @media (min-width: 120em) { @content }; // 1920px
+  }
 }

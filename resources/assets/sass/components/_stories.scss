@@ -41,6 +41,10 @@
     transform: skewX(0);
   }
 
+  @include respond(phone) {
+    padding: 1rem !important;
+  }
+
   &__shape {
     width: 12rem;
     height: 12rem;
@@ -59,6 +63,11 @@
 
     @include respond(phone) {
       transform: translateX(-3rem) skewX(0);
+    }
+
+    @include respond(small-phone) {
+      width: 8rem;
+      height: 8rem;
     }
   }
 
