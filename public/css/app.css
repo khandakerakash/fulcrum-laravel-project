@@ -8678,6 +8678,53 @@ body {
   border: 2px solid #e5e5e5 !important;
 }
 
+.u-plus-minus__sign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: 0;
+  font-size: 1.5em;
+  position: relative;
+  background-color: transparent !important;
+}
+
+.u-plus-minus__sign span {
+  position: absolute;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.u-plus-minus__sign span:first-of-type {
+  top: 25%;
+  bottom: 25%;
+  width: 10%;
+  left: 45%;
+}
+
+.u-plus-minus__sign span:last-of-type {
+  left: 25%;
+  right: 25%;
+  height: 10%;
+  top: 45%;
+}
+
+.u-plus-minus__sign:hover span:first-of-type,
+.u-plus-minus__sign button:hover span:last-of-type {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.u-plus-minus__sign:hover span:last-of-type {
+  left: 50%;
+  right: 50%;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -9163,53 +9210,6 @@ body {
   position: absolute;
   right: 1.5%;
   bottom: 4rem;
-}
-
-.studio__left-top--btn-plus-sign {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 50px;
-  height: 50px;
-  border: 0;
-  font-size: 1.5em;
-  position: relative;
-  background-color: transparent !important;
-}
-
-.studio__left-top--btn-plus-sign span {
-  position: absolute;
-  -webkit-transition: .3s;
-  transition: .3s;
-  background: #fff;
-  border-radius: 2px;
-}
-
-.studio__left-top--btn-plus-sign span:first-of-type {
-  top: 25%;
-  bottom: 25%;
-  width: 10%;
-  left: 45%;
-}
-
-.studio__left-top--btn-plus-sign span:last-of-type {
-  left: 25%;
-  right: 25%;
-  height: 10%;
-  top: 45%;
-}
-
-.studio__left-top--btn-plus-sign:hover span:first-of-type,
-.studio__left-top--btn-plus-sign button:hover span:last-of-type {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.studio__left-top--btn-plus-sign:hover span:last-of-type {
-  left: 50%;
-  right: 50%;
 }
 
 @media (min-width: 112.5em) {

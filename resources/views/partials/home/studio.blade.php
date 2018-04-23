@@ -6,8 +6,7 @@
                     <img src="{{asset('img/studio/concept-img-1.jpg')}}" alt="Conceptual Image One" class="img-responsive studio__left-top--bg">
                 </div>
                 <div class="studio__left-top--btn-plus">
-                    {{--<i class="fa fa-plus fa-2x"></i>--}}
-                    <button class="studio__left-top--btn-plus-sign">
+                    <button class="u-plus-minus__sign">
                         <span></span>
                         <span></span>
                     </button>
@@ -96,7 +95,10 @@
                     <img src="{{asset('img/studio/conceptual-img-2.jpg')}}" alt="Conceptual Image Two" class="img-responsive studio__right-middle--bg">
                 </div>
                 <div class="studio__right-middle--btn-plus">
-                    <i class="fa fa-plus fa-2x"></i>
+                    <button class="u-plus-minus__sign">
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </div>
 
@@ -146,7 +148,10 @@
                     <img src="{{asset('img/studio/conceptual-img-3.jpg')}}" alt="Conceptual Image Two" class="img-responsive studio__left-bottom--bg">
                 </div>
                 <div class="studio__left-bottom--btn-plus">
-                    <i class="fa fa-plus fa-2x"></i>
+                    <button class="u-plus-minus__sign">
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </div>
 
