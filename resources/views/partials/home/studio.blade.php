@@ -6,7 +6,11 @@
                     <img src="{{asset('img/studio/concept-img-1.jpg')}}" alt="Conceptual Image One" class="img-responsive studio__left-top--bg">
                 </div>
                 <div class="studio__left-top--btn-plus">
-                    <i class="fa fa-plus fa-2x"></i>
+                    {{--<i class="fa fa-plus fa-2x"></i>--}}
+                    <button class="studio__left-top--btn-plus-sign">
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </div>
 

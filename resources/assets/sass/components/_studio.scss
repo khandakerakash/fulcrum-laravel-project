@@ -16,7 +16,48 @@
     height: 10rem;
     position: absolute;
     right: 1.5%;
-    bottom: 4.8rem;
+    bottom: 4rem;
+
+    &-sign {
+      @include center-vertical-and-horizontal;
+      width: 50px;
+      height: 50px;
+      border: 0;
+      font-size: 1.5em;
+      position: relative;
+      background-color: transparent!important;
+
+      span {
+        position: absolute;
+        transition: .3s;
+        background: $color-white;
+        border-radius: 2px;
+
+        &:first-of-type {
+          top: 25%;
+          bottom: 25%;
+          width: 10%;
+          left: 45%;
+        }
+
+        &:last-of-type {
+          left: 25%;
+          right: 25%;
+          height: 10%;
+          top: 45%;
+        }
+      }
+
+      &:hover span:first-of-type, button:hover span:last-of-type {
+        transform: rotate(90deg);
+      }
+
+      &:hover span:last-of-type {
+        left: 50%;
+        right: 50%;
+      }
+
+    }
 
     @include respond(big-desktop) {
       right: 1.4%;
@@ -52,7 +93,6 @@
     }
   }
 }
-
 
 .studio__right-top {
   height: 72vh;
@@ -671,3 +711,4 @@
     }
   }
 }
+
