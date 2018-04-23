@@ -25,5 +25,11 @@
 }
 
 .feature-section-bottom {
-  padding: 10rem 0;
+  padding: 10rem 0 5rem 0;
+}
+
+.footer-section {
+  padding: 0!important;
+  margin: 0!important;
+  background-color: $footer-bg-color;
 }

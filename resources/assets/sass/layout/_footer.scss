@@ -1,0 +1,54 @@
+.footer {
+  padding: 7rem;
+
+  &__header {
+
+    h2 {
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: .2rem;
+
+    }
+
+    &--instagram {
+      h2 {
+        text-align: center;
+        margin-bottom: 0 !important;
+        position: relative;
+
+        &:after {
+          content: "";
+          background-color: $bg-color-red !important;
+          width: 1rem;
+          height: 1rem;
+          border-radius: 100%;
+          display: inline-block;
+          position: absolute;
+          bottom: .7rem;
+          transition: all 1s ease;
+          transition-delay: .8s;
+        }
+      }
+    }
+
+    @include respond(tab-port) {
+
+      h3 {
+        text-align: left !important;
+      }
+    }
+  }
+
+  address {
+    font-size: $default-font-size !important;
+  }
+
+   p {
+    font-size: $default-font-size !important;
+  }
+
+  &__instagram-img {
+    padding-bottom: 10rem;
+  }
+}

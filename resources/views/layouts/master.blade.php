@@ -27,7 +27,10 @@
     @include('partials/utility/preloader')
     @include('partials/common/header')
     @include('partials/common/nav')
+
     @yield('content')
+
+    @include('partials/common/footer')
 </div>
 <!-- /#app -->
 
