@@ -15,11 +15,6 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            {{--<form class="navbar-form navbar-left main__nav--search-box">--}}
-                {{--<div class="form-group input-group-lg">--}}
-                    {{--<input type="text" class="form-control" placeholder="Search">--}}
-                {{--</div>--}}
-            {{--</form>--}}
             <form action="#" class="navbar-form navbar-left main__nav--search-box form">
                 <div class="form__group">
                     <input type="text" class="form__input u-center-text" placeholder="Search"  id="name">

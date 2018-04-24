@@ -18,6 +18,8 @@
 .u-border-nav {border: 1px solid #d4d4d4 !important;}
 .u-border-box {border: 2px solid #e5e5e5 !important;}
 
+.u-horizontal-line {background-color: $color-gray-light-1 !important;}
+
 //FOR ANIMATED PLUS/MINUS SIGN USING CSS
 .u-plus-minus__sign {
   @include center-vertical-and-horizontal;
