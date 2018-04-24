@@ -11,6 +11,12 @@
         letter-spacing: .5rem;
         color: $color-white;
         padding-bottom: 1.5rem;
+
+        @include respond(small-phone) {
+          font-size: 2rem;
+          letter-spacing: 0;
+          padding-bottom: .5rem;
+        }
       }
 
       p {
@@ -56,6 +62,10 @@
   &__bottom {
     padding: 5rem 0;
 
+    @include respond(notebook-13) {
+      padding: 1.5rem 0 !important;
+    }
+
     &--header {
 
       h2 {
@@ -64,6 +74,11 @@
         font-weight: 600;
         letter-spacing: .2rem;
         color: $color-white;
+
+        @include respond(small-phone) {
+          font-size: 2rem;
+          letter-spacing: 0;
+        }
       }
 
       &--instagram {
@@ -85,6 +100,10 @@
             transition-delay: .8s;
           }
         }
+
+        @include respond(common-phone) {
+          display: none !important;
+        }
       }
 
       @include respond(tab-port) {
@@ -97,6 +116,14 @@
 
     &--instagram--img {
       padding-bottom: 2rem !important;
+
+      @include respond(notebook-13) {
+        padding-bottom: .5rem !important;
+      }
+
+      @include respond(common-phone) {
+        display: none !important;
+      }
     }
 
     &--text {
@@ -131,6 +158,10 @@
   p {
     color: $color-gray-light !important;
     font-size: $default-font-size !important;
+  }
+
+  @include respond(common-phone) {
+    text-align: center !important;
   }
 }
 

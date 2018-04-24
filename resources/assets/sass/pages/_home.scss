@@ -43,6 +43,22 @@
   }
 
   @include respond(notebook-13) {
+    padding-top: 1rem!important;
+    height: 100vh;
+  }
+
+  @include respond(common-phone) {
+    padding-top: 4rem!important;
+    height: 60vh;
+  }
+
+  @include respond(phone) {
+    padding-top: 2rem!important;
+    height: 75vh;
+  }
+
+  @include respond(small-phone) {
+    padding-top: 2rem!important;
     height: 100vh;
   }
 
